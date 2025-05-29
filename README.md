@@ -21,6 +21,26 @@ Exception Handler: Centralized error handling
 
 ## API Endpoints
    Get All Departments
-         
+
+
+   Get Department by ID
+
+
+   Error Response (404):
+
+
+   Add New Department
+
+
+   Error Response (400) - Duplicate ID:
+
+
+## Exception Handling
+The service implements comprehensive exception handling:
+
+ 
+EntityNotFoundException	- 404	- Department not found
+DuplicateKeyException	- 400 - Duplicate department ID
+Exception	            - 500 - Generic server errors
 
    
