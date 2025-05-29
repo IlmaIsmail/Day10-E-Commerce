@@ -39,8 +39,8 @@ Exception Handler: Centralized error handling
 The service implements comprehensive exception handling:
 
  
-EntityNotFoundException	- 404	- Department not found
-DuplicateKeyException	- 400 - Duplicate department ID
-Exception	            - 500 - Generic server errors
+      EntityNotFoundException	- 404	- Department not found
+      DuplicateKeyException	- 400 - Duplicate department ID
+      Exception	            - 500 - Generic server errors
 
    
