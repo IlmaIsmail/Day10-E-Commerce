@@ -14,9 +14,13 @@ Repository Layer: Spring Data JPA repositories
 Service Layer: Business logic implementation
 Exception Handler: Centralized error handling
 
-##Features
+## Features
 1. Department CRUD Operations
 2. Data Validation
 3. Proper HTTP status codes
+
+## API Endpoints
+   Get All Departments
+         
 
    
